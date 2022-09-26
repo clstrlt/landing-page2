@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    font: caption;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+  
+
+}
+
+.liste li {
+    display: flex;
+}
+
+.logo {
+    
+}
+
+.liste2 {
+    display: flex;
+    
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.liste3 li {
+    display: flex;
+    align-items: start;
+    width: 230px;
+    
+    
+}
+
+
+#hautdepage {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10% 1% 10%;
+    flex-wrap: wrap;
+    width: 80%;
+    font: caption;
+    font-size: medium;
+
+
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+
+div.element:nth-child(1) {
+    background-color: white;
+
+}
+
+div.element:nth-child(2) {
+    background-color: white;
+    flex: 1;
+}
+
+div.element:nth-child(3) {
+    background-color: white;
+    flex: 0.1;
+}
+
+
+.boutonpage2 {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header {
+    text-align: right;
+
+}
+
+ul {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.partie4 {
+
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.espace a {
+    margin-right: 20px;
+
+}
+
+li {
+    border: 1px solid black;
+    text-align: center;
+    color: rgba(249, 250, 251, 0.819);
+    display: table-cell;
+    font-size: 15px;
+    justify-content: space-around;
+ 
+
+}
+
+.partie3 li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    border: 1px solid black;
+    font: caption;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+}
+
+
+.mini {
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    margin: 80px 0px;
+}
+
+
+.topbox {
+
+    font-size: small;
+    text-align: right;
+    font: caption;
+    margin-right: 10%;
+    display: flex;
+}
+
+body {
+    background-color: rgb(181, 181, 195);
+    margin: 30;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.box1 {
+    size: 50%;
+}
+
+.card-blue {
+
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgba(209, 232, 255, 0.819);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.imagehomepod {
+    width: 220px;
+    height: 150px;
+    padding: 10px;
+}
+
+.liste li img  {
+    width: 10%;
+    padding: 4px;
+}
+
+.liste3 li img {
+    width: 12px;
+    margin-top: 7px;
+    margin-left: 20px;
+
+}
+
+div.bloc {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.boutonbleu {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    background-color: rgb(29, 84, 193);
+    border-radius: 980px;
+    padding: 5px 10px;
+
+}
+
+
+.homepodorange {
+    align-items: center;
+    width: 45%;
+    margin-bottom: 80px;
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .bloc1 {
+        width: 70%;
+
+    }
+
+    .bloc2 {
+        width: 70%;
+    }
+
+    .homepodorange {
+        width: 60%;
+    }
+}
